@@ -15,6 +15,12 @@ bash <(curl -Ls https://raw.githubusercontent.com/laffey22/3x-ui/master/install.
 
 1. 若要将最新版本的压缩包直接下载到服务器，请运行以下命令：
 
+   
+```sh
+wget https://github.com/laffey22/3x-ui/releases/download/v2.5.0/x-ui-linux-amd64.tar.gz
+```
+或者
+
 ```sh
 ARCH=$(uname -m)
 case "${ARCH}" in
@@ -28,7 +34,7 @@ case "${ARCH}" in
 esac
 
 
-wget https://github.com/laffey22/3x-ui/releases/latest/download/x-ui-linux-${XUI_ARCH}.tar.gz
+wget https://github.com/laffey22/3x-ui/releases/download/v2.5.0/x-ui-linux-${XUI_ARCH}.tar.gz
 ```
 
 2. 下载压缩包后，执行以下命令安装或升级 x-ui：
